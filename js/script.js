@@ -83,6 +83,8 @@ ScrollReveal().reveal('.ani-delay-2', {
     delay:1500});
 ScrollReveal().reveal('.ani-delay-3', { 
     delay:2000});
+ScrollReveal().reveal('.ani-delay-4', { 
+    delay:5000});
 
  
  
