@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be-Pin Web Project</title>
+    
+    <!--Font Awesome Kıt Lınk-->
+    <script src="https://kit.fontawesome.com/9133ea91d6.js" crossorigin="anonymous"></script>
+    <!--FANCYBOX-CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <!--SCROLL REVEAL JS-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--SWİPER SLİDER-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--Custom Css-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!--Hero Section-->
+    <!-- Swiper -->
+	<div class="swiper-container" id="hero">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+                <img src="./img/rear-view-programmer-working-all-night-long_1098-18697.jpg" alt="">
+                <div class="hero-content">
+                    <h1 class="main-title ani-fade-up">GENESIS</h1>
+                    <P class="main-slogan ani-fade-up ani-delay">A LITTLE SPACE TO BE CREATIVE</P>
+                    <div class="arrows ani-fade-up ani-delay-1">
+                        <a href="#about">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+			<div class="swiper-slide">
+                <img src="./img/group-of-diverse-people-having-a-business-meeting.jpg" alt="">
+                <div class="hero-content">
+                    <h1 class="main-title">GENESIS</h1>
+                    <P class="main-slogan">A LITTLE SPACE TO BE CREATIVE</P>
+                    <div class="arrows">
+                        <a href="#about">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+			<div class="swiper-slide">
+                <img src="./img/main_bg.jpg" alt="">
+                <div class="hero-content">
+                    <h1 class="main-title">GENESIS</h1>
+                    <P class="main-slogan">A LITTLE SPACE TO BE CREATIVE</P>
+                    <div class="arrows">
+                        <a href="#about">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+	</div>
+    <!--End Hero Section-->
+
+    <!--Header Section-->
+    <header>
+        <nav class="nav ani-fade-up">
+            <div class="container navbar">
+                <a href="#" class="logo"><span class="logo1">Be</span>Pin</a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#hero" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolyo" class="nav-link">PORTFOLYO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#team" class="nav-link">TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+                <div class="navbar-toggler">
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--End Header Section-->
+
+    <!--About Section-->
+    <section id="about">
+        <div class="container">
+            <div class="about-content sec-grid">
+                <div class="about-info">
+                    <h2 class="vertical-title ani-delay-1 ani-right">THE STORY</h2>
+                    <div class="about-detail ani-delay ani-left">
+                        <h2 class="horizantal-title">OUR MISSION</h2>
+                        <p>Nam molestie fermentum nunc id scelerisque. Ut semper erat at lorem volutpat finibus. Cras
+                            iaculis egestas fermentum. Mauris efficitur, sem fermentum posuere condimentum, massa odio
+                            ornare ex, vitae porttitor massa urna eu ipsum. Nullam quis ultrices nunc. Morbi ut vehicula
+                            enim, id tincidunt tortor. Maecenas efficitur posuere erat sed congue.</p>
+                        <button class="btn-genaral btn-light">DETAIL</button>
+                    </div>
+                </div>
+                <div class="about-image ani-fade-up">
+                    <img src="./img/company.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End About Section-->
+
+    <!--Services Section-->
+    <section id="services" class="pri-background">
+        <div class="container">
+            <div class="services-content sec-grid">
+                <div class="services-image ani-fade-up">
+                    <img src="./img/services.jpg" alt="">
+                </div>
+                <div class="services-info">
+                    <h2 class="vertical-title vertical-title-right ani-right ani-delay">THE SKILLS</h2>
+                    <div class="services-details ani-delay ani-right">
+                        <div id="services-slider">
+                            <div class="services-slide">
+                                <h2 class="horizantal-title light-color">OUR SERVICES1</h2>
+                                <p>Nam molestie fermentum nunc id scelerisque. Ut semper erat at lorem volutpat finibus.
+                                    Cras iaculis egestas fermentum. Mauris efficitur, sem fermentum posuere condimentum,
+                                    massa odio ornare ex, vitae porttitor massa urna eu ipsum. Nullam quis ultrices
+                                    nunc. Morbi ut vehicula enim, id tincidunt tortor. Maecenas efficitur posuere erat
+                                    sed congue.</p>
+                            </div>
+                            <div class="services-slide">
+                                <h2 class="horizantal-title light-color">OUR SERVICES2</h2>
+                                <p>Nam molestie fermentum nunc id scelerisque. Ut semper erat at lorem volutpat finibus.
+                                    Cras iaculis egestas fermentum. Mauris efficitur, sem fermentum posuere condimentum,
+                                    massa odio ornare ex, vitae porttitor massa urna eu ipsum. Nullam quis ultrices
+                                    nunc. Morbi ut vehicula enim, id tincidunt tortor. Maecenas efficitur posuere erat
+                                    sed congue.</p>
+                            </div>
+                        </div>
+                        <div class="btn-arrows">
+                            <div id="arrow-left" class="btn-genaral btn-dark">&#60;</div>
+                            <div id="arrow-right" class="btn-genaral btn-dark">&#62;</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Services Section-->
+
+    <!--Portfolyo Section-->
+    <section id="portfolyo">
+        <div class="portfolyo-items">
+            <a href="./img/portfolio-item-1.jpg" data-fancybox="gallery"class="portfolyo-item portfolyo-item-1 ani-fade-up"><span>&#9741;</span></a>
+            <a href="./img/portfolio-item-2.jpg" data-fancybox="gallery"class="portfolyo-item portfolyo-item-2 ani-fade-up"><span>&#9741;</span></a>
+            <a href="./img/portfolio-item-3.jpg" data-fancybox="gallery"class="portfolyo-item portfolyo-item-3 ani-fade-up"><span>&#9741;</span></a>
+            <a href="./img/portfolio-item-4.jpg" data-fancybox="gallery"class="portfolyo-item portfolyo-item-4 ani-fade-up ani-delay"><span>&#9741;</span></a>
+            <a href="./img/portfolio-item-5.jpg" data-fancybox="gallery"class="portfolyo-item portfolyo-item-5 ani-fade-up ani-delay"><span>&#9741;</span></a>
+            <a href="./img/portfolio-item-6.jpg" data-fancybox="gallery"class="portfolyo-item portfolyo-item-6 ani-fade-up ani-delay-1"><span>&#9741;</span></a>
+            <a href="./img/portfolio-item-7.jpg" data-fancybox="gallery"class="portfolyo-item portfolyo-item-7 ani-fade-up ani-delay-1"><span>&#9741;</span></a>
+            <a href="./img/portfolio-item-8.jpg" data-fancybox="gallery"class="portfolyo-item portfolyo-item-8 ani-fade-up ani-delay-1"><span>&#9741;</span></a>
+        </div>
+    </section>
+    <!--End Portfolyo Section-->
+
+    <!--Team Section-->
+    <section id="team">
+        <div class="container">
+            <div class="team-content sec-grid">
+                <div class="team-info">
+                    <h2 class="vertical-title ani-left ani-delay">THE TEAM</h2>
+                    <div class="team-detail ani-left">
+                        <h2 class="horizantal-title">OUR PERSONAL</h2>
+                        <p>Nam molestie fermentum nunc id scelerisque. Ut semper erat at lorem volutpat finibus. Cras
+                            iaculis egestas fermentum. Mauris efficitur, sem fermentum posuere condimentum, massa odio
+                            ornare ex, vitae porttitor massa urna eu ipsum. Nullam quis ultrices nunc. Morbi ut vehicula
+                            enim, id tincidunt tortor. Maecenas efficitur posuere erat sed congue.</p>
+                        <button class="btn-genaral btn-light">DETAIL</button>
+                    </div>
+                </div>
+                <div class="team-items">
+                    <div class="team-item team-item-1 ani-fade-up ani-delay">
+                        <img src="./img/team-item-1.jpg" alt="">
+                        <div class="team-item-overlay">
+                            <div class="team-item-info">
+                                <h5>Jane Doe</h5>
+                                <p>Designer</p>
+                                <ul class="team-social-list">
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-item team-item-2 ani-fade-up ani-delay-1">
+                        <img src="./img/team-item-2.jpg" alt="">
+                        <div class="team-item-overlay">
+                            <div class="team-item-info">
+                                <h5>John Doe</h5>
+                                <p>Devoloper</p>
+                                <ul class="team-social-list">
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!--End Team Section-->
+
+    <!--Blog Section-->
+    <section id="blog" class="pri-background">
+        <div class="container">
+            <div class="blog-content sec-grid">
+                <div class="lastet-post">
+                    <div class="blog-post ani-left ani-delay">
+                        <h4>Post Title</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, dignissimos architecto.
+                            Voluptates soluta adipisci enim dolor quod repellat.</p>
+                        <a href="#">Read More >></a>
+                        <div class="post-meta">
+                            <img src="./img/team-item-1.jpg" alt="">
+                            <div class="divider">&#124;</div>
+                            <p class="author">Jane Doe</p>
+                            <div class="divider">&#124;</div>
+                            <p class="date">November 18. 2020</p>
+                        </div>
+                    </div>
+                    <div class="blog-post ani-left ani-delay-1">
+                        <h4>Post Title 2</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, dignissimos architecto.
+                            Voluptates soluta adipisci enim dolor quod repellat.</p>
+                        <a href="#">Read More >></a>
+                        <div class="post-meta">
+                            <img src="./img/team-item-2.jpg" alt="">
+                            <div class="divider">&#124;</div>
+                            <p class="author">Axel Witsel</p>
+                            <div class="divider">&#124;</div>
+                            <p class="date">November 18. 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-info">
+                    <h2 class="vertical-title vertical-title-right ani-right ani-delay">THE BLOG</h2>
+                    <div class="blog-detail ani-right">
+                        <h2 class="horizantal-title light-color">FROM US</h2>
+                        <p>Nam molestie fermentum nunc id scelerisque. Ut semper erat at lorem volutpat finibus.
+                            Cras iaculis egestas fermentum. Mauris efficitur, sem fermentum posuere condimentum,
+                            massa odio ornare ex, vitae porttitor massa urna eu ipsum. Nullam quis ultrices nunc.
+                            Morbi ut vehicula enim, id tincidunt tortor. Maecenas efficitur posuere erat sed congue.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Blog Section-->
+
+    <!--Contact Section-->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-content ani-bottom">
+                <h2 class="">Get In Touch With Us</h2>
+                <form action="">
+                    <input type="text" placeholder="Your Name" class="name ani-left ani-delay">
+                    <input type="email" placeholder="Your E-mail" class="email ani-right ani-delay-1">
+                    <textarea placeholder="Your Message" name="" id="" cols="30" rows="10" class="message ani-left ani-delay-2"></textarea>
+                    <button class="btn-genaral btn-light">SEND</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--End Contact Section-->
+
+    <!--Footer Section-->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="copy-right">
+                    <p>No &copy; BePin</p>
+                </div>
+                <div class="social-media">
+                    <h4>Follow Us</h4>
+                    <ul class="social-list">
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="back-top">
+                    <a href="#"><i class="fas fa-chevron-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer Section-->
+
+
+
+<!--jQuery-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+<!--FancyBox-->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<!--SWİPER SLİDER JS-->
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!--Custom JS-->
+<script src="./js/script.js"></script>
+    
+</body>
+</html>
